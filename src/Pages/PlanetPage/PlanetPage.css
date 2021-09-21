@@ -3,12 +3,12 @@ img {
 }
 
 .planetPagediv {
-    padding: 100px 180px;
+    padding: 90px 160px;
     background: #000;
 }
 
 .planet-img {
-    width: 90%;
+    width: 100%;
 }
 
 .planet-div {
@@ -17,9 +17,16 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.planet-img-div {
+    border: 2px solid #fff;
+    margin: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .planet4 {
-    width: 55%;
-    margin-left: 40px;
+    width: 62%;
+    margin-left: 51px;
     margin-top: 60px;
 }
 
