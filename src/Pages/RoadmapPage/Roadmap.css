@@ -5,3 +5,11 @@
 .roadmap-img-div img {
     max-width: 100%;
 }
+
+.roadmap-h {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    background-color: #000;
+}
