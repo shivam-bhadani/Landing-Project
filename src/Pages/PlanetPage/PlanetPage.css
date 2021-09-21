@@ -1,0 +1,57 @@
+img {
+    max-width: 100%;
+}
+
+.planetPagediv {
+    padding: 100px 180px;
+    background: #000;
+}
+
+.planet-img {
+    width: 90%;
+}
+
+.planet-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.planet4 {
+    width: 55%;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+@media (max-width: 1000px) {
+    .planetPagediv {
+        padding: 60px 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .planetPagediv {
+        padding: 40px 60px;
+    }
+    .planet-img {
+        width: 80%;
+    }
+    .planet-div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    .planet-img {
+        width: 100%;
+    }
+    .planetPagediv {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 360px) {
+    .planetPagediv {
+        padding: 20px 20px;
+    }
+}

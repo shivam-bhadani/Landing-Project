@@ -1,0 +1,24 @@
+.about-div {
+    color: #f2f2f2;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-heading {
+    font-weight: 500;
+    padding-bottom: 25px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.about-p-div p {
+    line-height: 28px;
+    word-spacing: 1.5px;
+}
+
+@media (max-width:990px) {
+    .about-div {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+}
