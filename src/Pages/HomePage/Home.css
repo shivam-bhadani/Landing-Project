@@ -38,7 +38,7 @@
 
 @media (max-width:760px) {
     .home-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 40px;
         padding-bottom: 50px;
     }
