@@ -4,7 +4,7 @@
     background-position: centre;
     background-size: cover;
     background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.6);
 }
 @media (max-width: 680px) {
     .team-page-div {

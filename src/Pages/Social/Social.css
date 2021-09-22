@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #000;
+    background-image: url('../../images/aboutTimerBg.jpg');
+    background-position: centre;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.6);
     padding: 30px 0;
     margin: auto;
 }
