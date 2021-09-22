@@ -9,6 +9,7 @@
 
 .team-card-div {
     width: 300px;
+    max-width: 90%;
     height: 300px;
     margin: 20px auto;
     padding: 20px;
@@ -71,7 +72,7 @@
 
 @media (max-width: 500px) {
     .team-text-div {
-        padding:  10px 20px;
+        padding:  0px;
     }
     .team-card-div {
         width: 80%;
