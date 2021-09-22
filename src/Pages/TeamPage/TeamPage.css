@@ -1,5 +1,6 @@
 .team-page-div {
     padding: 60px 0;
+    padding-bottom: 0;
     background-image: url('../../images/aboutTimerBg.jpg');
     background-position: centre;
     background-size: cover;
@@ -9,5 +10,6 @@
 @media (max-width: 680px) {
     .team-page-div {
         padding: 40px 0;
+        padding-bottom: 0;
     }
 }

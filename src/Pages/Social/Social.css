@@ -2,11 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../../images/aboutTimerBg.jpg');
-    background-position: centre;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.6);
     padding: 30px 0;
     margin: auto;
 }
@@ -17,6 +12,28 @@
     transition: 0.4s;
 }
 
+.smart-div {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.smart-div p a {
+    color: white;
+    text-decoration: none;
+}
+
+.smart-div p {
+    transition: 0.4s;
+    width: fit-content;
+    margin: auto;
+}
+
+.smart-div p:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
 .social-div:hover {
     transform: translateY(-10px);
     cursor: pointer;
@@ -24,33 +41,6 @@
 
 .social-div img {
     max-width: 100%;
-}
-
-.medium-div {
-    padding: 0;
-}
-
-.medium-div img {
-    width: 84%;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.twitter-div {
-    padding: 0;
-}
-.twitter-div img {
-    width: 98%;
-    padding: 3px 1px 8px 3px;
-}
-.instagram-div img {
-    padding-top: 6px;
-    padding-left: 5px;
-    width: 90%;
-}
-.discord-div img {
-    padding-left: 1px;
-    padding-top: 1.8px
 }
 
 @media (max-width: 450px) {

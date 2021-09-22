@@ -26,8 +26,12 @@
     padding:  10px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-family: 'Epilogue', sans-serif;
+}
+
+.team-text-div h2 {
+    margin-right: 10px;
 }
 
 .twitter-logo-div {
