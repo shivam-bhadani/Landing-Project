@@ -7,8 +7,8 @@ img {
     background: #000;
 }
 
-.planet-img {
-    width: 100%;
+video {
+    max-width: 100%;
 }
 
 .planet-div {
@@ -18,39 +18,11 @@ img {
 }
 
 .planet-img-div {
-    /* border: 2px solid #fff; */
     margin: 30px;
     border-radius: 10px;
     padding: 10px;
 }
 
-.planet4 {
-    width: 82%;
-    padding-top: 50px;
-    padding-left: 40px;
-}
-
-.planet3div {
-    width: 329px;
-    padding: 0;
-}
-
-.planet5 {
-    width: 80%;
-    padding-top: 50px;
-    padding-left: 40px;
-}
-
-@media (max-width: 1230px) {
-    .planet4 {
-        padding-top: 28px;
-        padding-left: 24px;
-    }
-    .planet5 {
-        padding-top: 28px;
-        padding-left: 24px;
-    }
-}
 
 @media (max-width: 1000px) {
     .planetPagediv {
@@ -65,17 +37,7 @@ img {
     .planet-img {
         width: 90%;
     }
-    .planet4 {
-        padding-top: 18px;
-        padding-left: 24px;
-    }
-    .planet5 {
-        padding-top: 18px;
-        padding-left: 24px;
-    }
-    .planet-div {
-        grid-template-columns: 1fr 1fr;
-    }
+    
 }
 
 @media (max-width: 450px) {
