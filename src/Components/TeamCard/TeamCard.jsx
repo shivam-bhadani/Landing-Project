@@ -4,7 +4,7 @@ import './TeamCard.css'
 export const TeamCard = () => {
     return (
         <div className="team-card-wrapper">
-            <h1 className="team-h">Team</h1>
+            <div className="team"><img src="images/team.png" alt="Team" /></div>
             <div className="team-card-div-wrapper">
                 <div className="team-card-div team1">
                     <div className="team-img-div">

@@ -44,19 +44,14 @@
     width: 40px;
 }
 
-.team-h {
-    width: fit-content;
-    margin: auto;
+.team {
     text-align: center;
-    padding: 8px 24px;
-    background-color: #F2AA4CFF;
-    color: #101820FF;
-    border-radius: 28px;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 20px;
 }
 
+.team img {
+    width: 260px;
+    max-width: 94%;
+}
 
 @media (max-width: 1120px) {
     .team-card-div-wrapper {

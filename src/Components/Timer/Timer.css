@@ -6,14 +6,13 @@
     color: #fff;
 }
 
-.launch-heading {
-    margin-bottom: 30px;
-    padding: 8px 24px;
-    background-color: #F2AA4CFF;
-    color: #101820FF;
-    border-radius: 28px;
-    font-size: 30px;
-    font-weight: 700;
+.presale {
+    margin-bottom: 20px;
+}
+
+.presale img {
+    width: 280px;
+    max-width: 94%;
 }
 
 .countdown-div ul {
@@ -55,9 +54,6 @@
 }
 
 @media (max-width: 450px) {
-    .launch-heading {
-        font-size: 28px;
-    }
     .clock-time {
         font-size: 25px;
         width: 60px;

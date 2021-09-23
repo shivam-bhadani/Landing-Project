@@ -5,7 +5,7 @@ export const RoadmapPage = () => {
         <div>
             <div className="roadmap-img-div">
                 <div className="roadmap-h-div">
-                    <h1 className="roadmap-h">Road Map</h1>
+                    <div className="roadmap"><img src="images/ROAD MAP.png" alt="" /></div>
                 </div>
                 <img src="images/roadmap.png" alt="" />
             </div>

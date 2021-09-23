@@ -6,17 +6,11 @@
     width: 100%;
 }
 
-.roadmap-h {
-    text-align: center;
-    padding: 8px 24px;
-    background-color: #F2AA4CFF;
-    color: #101820FF;
-    border-radius: 28px;
-    font-size: 30px;
-    font-weight: 800;
-    margin: auto;
-    width: fit-content;
+.roadmap img {
+    width: 270px;
+    max-width: 94%;
 }
-.roadmap-h-div {
+.roadmap {
     background-color: black;
+    text-align: center;
 }
