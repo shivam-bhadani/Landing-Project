@@ -11,7 +11,7 @@ export const TeamCard = () => {
                         <img src="images/team1.png" alt="team" />
                     </div>
                     <div className="team-text-div">
-                        <h2>PixelNova</h2>
+                        <h2><a href="">PixelNova</a></h2>
                         <div className="twitter-logo-div"><a href=""><img src="images/twitterlogo.png" alt="twitter" className="twitter-logo" /></a></div>
                     </div>
                 </div>
@@ -20,7 +20,7 @@ export const TeamCard = () => {
                         <img src="images/team2.png" alt="team" />
                     </div>
                     <div className="team-text-div">
-                        <h2>PixelNaut</h2>
+                        <h2><a href="">PixelNaut</a></h2>
                         <div className="twitter-logo-div"><a href=""><img src="images/twitterlogo.png" alt="twitter" className="twitter-logo" /></a></div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export const TeamCard = () => {
                         <img src="images/team3.png" alt="team" />
                     </div>
                     <div className="team-text-div">
-                        <h2>PixelNeutron</h2>
+                        <h2><a href="">PixelNeutron</a></h2>
                         <div className="twitter-logo-div"><a href=""><img src="images/twitterlogo.png" alt="twitter" className="twitter-logo" /></a></div>
                     </div>
                 </div>

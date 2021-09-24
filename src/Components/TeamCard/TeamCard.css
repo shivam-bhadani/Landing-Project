@@ -6,6 +6,19 @@
     padding: 0 40px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.team-img-div img {
+    transition: 0.4s;
+}
+
+.team-img-div img:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
 
 .team-card-div {
     width: 300px;
