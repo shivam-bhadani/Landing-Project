@@ -12,6 +12,12 @@
 
 .gif-div img {
     width: 400px;
+    transition: 0.4s;
+}
+
+.gif-div img:hover {
+    cursor: pointer;
+    transform: scale(1.08);
 }
 
 .content {
@@ -34,10 +40,14 @@
     .home-container {
         padding: 0;
         padding-bottom: 50px;
+        padding-top: 30px;
     }
 }
 
 @media (max-width:760px) {
+    .gif-div {
+        margin-bottom: 30px;
+    }
     .home-container {
         flex-direction: column-reverse;
         padding: 40px;
