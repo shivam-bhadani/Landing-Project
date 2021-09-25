@@ -29,6 +29,15 @@ video {
     padding: 10px;
 }
 
+.collection {
+    text-align: center;
+}
+
+.collection img {
+    width: 454px;
+    max-width: 94%;
+}
+
 @media (max-width: 780px) {
     .planet-div {
         grid-template-columns: 1fr 1fr;
