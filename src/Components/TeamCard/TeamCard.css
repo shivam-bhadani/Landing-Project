@@ -61,9 +61,9 @@ a {
     text-align: center;
 }
 
-.team img {
-    width: 260px;
-    max-width: 94%;
+.team h1 {
+    font-size: 40px;
+    color: rgb(155, 155, 211);
 }
 
 @media (max-width: 1120px) {

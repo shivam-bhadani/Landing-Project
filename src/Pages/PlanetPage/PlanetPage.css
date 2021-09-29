@@ -2,6 +2,7 @@ img {
     max-width: 100%;
 }
 
+
 .planetPageWrapper {
     width: 100%;
     background: #000;
@@ -33,9 +34,9 @@ video {
     text-align: center;
 }
 
-.collection img {
-    width: 454px;
-    max-width: 94%;
+.collection h1{
+    font-size: 40px;
+    color: rgb(155, 155, 211);
 }
 
 @media (max-width: 780px) {

@@ -9,9 +9,9 @@
     margin-bottom: 20px;
 }
 
-.howstarted img {
-    width: 450px;
-    max-width: 94%;
+.howstarted h1 {
+    font-size: 40px;
+    color: rgb(155, 155, 211);
 }
 
 .about-p-div p {

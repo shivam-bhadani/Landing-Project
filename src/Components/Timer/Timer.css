@@ -16,9 +16,9 @@
     margin-bottom: 20px;
 }
 
-.presale img {
-    width: 280px;
-    max-width: 94%;
+.presale h1 {
+    font-size: 40px;
+    color: rgb(155, 155, 211);
 }
 
 .countdown-div ul {

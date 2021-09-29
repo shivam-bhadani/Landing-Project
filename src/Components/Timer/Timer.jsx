@@ -42,7 +42,7 @@ export const Timer = () => {
 
     return (
         <div className="timer-div">
-            <div className="presale"><img src="images/pre sale.png" alt="" /></div>
+            <div className="presale"><h1>PRE-SALE</h1></div>
             <div className="countdown-div">
                 <ul class="timer inline-list">
                     <li><div id="clock-hrs-left" className="clock-time">{timerDay} <span className="part">:</span></div><div>DAYS</div></li>
