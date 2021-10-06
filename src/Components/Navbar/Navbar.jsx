@@ -24,7 +24,7 @@ export const Navbar = () => {
             <div className="nav-wrapper">
                 <div className="nav-div">
                     <div className="logo-div">
-                        <img src="images/logo.png" alt="logo" />
+                        <a href="/"><img src="images/logo.png" alt="logo" /></a>
                     </div>
                     <div className={hamburgerClass} onClick={hamburgerClick}>
                         &#x2630;
@@ -34,11 +34,12 @@ export const Navbar = () => {
                     </div>
                     <div className={navUlDivClass}>
                         <ul className="nav-ul">
-                            <li className="nav-li"><a href="">Home</a></li>
-                            <li className="nav-li"><a href="">Presale</a></li>
-                            <li className="nav-li"><a href="">Collection</a></li>
-                            <li className="nav-li"><a href="">Roadmap</a></li>
-                            <li className="nav-li"><a href="">Team</a></li>
+                            <li className="nav-li"><a href="#">Home</a></li>
+                            <li className="nav-li"><a href="#presale">Presale</a></li>
+                            <li className="nav-li"><a href="#collection">Collection</a></li>
+                            <li className="nav-li"><a href="#roadmap">Roadmap</a></li>
+                            <li className="nav-li"><a href="#teams">Team</a></li>
+                            <li className="nav-li"><a href="#social">Social</a></li>
                         </ul>
                     </div>
                 </div>

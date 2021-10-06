@@ -2,7 +2,7 @@ import "./PlanetPage.css";
 
 export const PlanetPage = () => {
     return (
-        <div className="planetPageWrapper">
+        <div className="planetPageWrapper" id="collection">
             <div className="collection"><h1>COLLECTIONS</h1></div>
             <div className="planetPagediv">
                 <div className="planet-div">

@@ -4,7 +4,7 @@ import { Social } from "../Social/Social";
 
 export const TeamPage = () => {
     return (
-        <div className="team-page-div">
+        <div className="team-page-div" id="teams">
             <TeamCard />
             <Social />
         </div>

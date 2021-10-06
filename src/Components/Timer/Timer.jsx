@@ -12,7 +12,7 @@ export const Timer = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        let dest = new Date("sep 28, 2021 5:00:00");
+        let dest = new Date("oct 8, 2021 5:00:00");
         interval = setInterval(() => {
             let now = new Date().getTime();
             let diff = dest - now;
@@ -41,7 +41,7 @@ export const Timer = () => {
     })
 
     return (
-        <div className="timer-div">
+        <div className="timer-div" id="presale">
             <div className="presale"><h1>PRE-SALE</h1></div>
             <div className="countdown-div">
                 <ul class="timer inline-list">

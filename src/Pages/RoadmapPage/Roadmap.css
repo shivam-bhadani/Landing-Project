@@ -6,7 +6,29 @@
     width: 100%;
 }
 
+.mobile-roadmap {
+    display: none;
+}
+
+.roadmap {
+    text-align: center;
+}
+
+.roadmap h1 {
+    font-size: 40px;
+    color: rgb(155, 155, 211);
+}
+
 .roadmap {
     background-color: black;
     text-align: center;
+}
+
+@media (max-width: 700px) {
+    .mobile-roadmap {
+        display: block;
+    }
+    .desktop-roadmap {
+        display: none;
+    }
 }
