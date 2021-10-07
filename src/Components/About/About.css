@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Bitsumishi";
-    src: url(../../Font/bitsumishi/BITSUMIS.TTF);
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
 }
 
 .about-div {
@@ -15,9 +15,9 @@
 }
 
 .howstarted h1 {
-    font-size: 40px;
+    font-size: 24px;
     color: rgb(155, 155, 211);
-    font-family: "Bitsumishi";
+    font-family: "Future Earth";
 }
 
 .about-p-div p {

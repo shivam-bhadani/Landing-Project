@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
+}
+
 .social-div-wrapper {
     display: flex;
     align-items: center;
@@ -41,6 +46,14 @@
 
 .social-div img {
     max-width: 100%;
+}
+
+.connect-h {
+    text-align: center;
+    font-family: "Future Earth";
+    font-size: 24px;
+    color: rgb(155, 155, 211);
+    margin-top: 60px;
 }
 
 @media (max-width: 450px) {

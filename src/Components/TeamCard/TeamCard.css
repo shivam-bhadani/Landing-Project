@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Transformers";
-    src: url(../../Font/transformers_movie/Transformers\ Movie.ttf);
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
 }
 
 .team-card-div-wrapper {
@@ -67,8 +67,8 @@ a {
 }
 
 .team h1 {
-    font-family: "Transformers";
-    font-size: 40px;
+    font-family: "Future Earth";
+    font-size: 24px;
     color: rgb(155, 155, 211);
 }
 

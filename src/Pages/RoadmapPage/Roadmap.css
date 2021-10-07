@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Spacerangertitle";
-    src: url(../../Font/spacerangertitle.ttf);
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
 }
 
 .roadmap-img-div {
@@ -20,8 +20,8 @@
 }
 
 .roadmap h1 {
-    font-family: "Spacerangertitle";
-    font-size: 40px;
+    font-family: "Future Earth";
+    font-size: 24px;
     color: rgb(155, 155, 211);
 }
 
