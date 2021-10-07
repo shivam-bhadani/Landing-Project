@@ -3,6 +3,11 @@
     src: url(../../Font/ds_digital/DS-DIGI.TTF);
 }
 
+@font-face {
+    font-family: "Batman";
+    src: url(../../Font/batman_forever/batmfa__.ttf);
+}
+
 
 .timer-div {
     width: 50%;
@@ -19,6 +24,7 @@
 .presale h1 {
     font-size: 40px;
     color: rgb(155, 155, 211);
+    font-family: "Batman";
 }
 
 .countdown-div ul {

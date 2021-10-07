@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Future Earth";
+    src: url(../../Font/future_earth/Future\ Earth\ v2.ttf);
+}
+
 img {
     max-width: 100%;
 }
@@ -35,6 +40,7 @@ video {
 }
 
 .collection h1{
+    font-family: "Future Earth";
     font-size: 40px;
     color: rgb(155, 155, 211);
 }

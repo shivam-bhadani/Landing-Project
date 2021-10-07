@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Spacerangertitle";
+    src: url(../../Font/spacerangertitle.ttf);
+}
+
 .roadmap-img-div {
     width: 100%;
     margin-bottom: -20px;
@@ -15,6 +20,7 @@
 }
 
 .roadmap h1 {
+    font-family: "Spacerangertitle";
     font-size: 40px;
     color: rgb(155, 155, 211);
 }

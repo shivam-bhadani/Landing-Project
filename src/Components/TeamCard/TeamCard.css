@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Transformers";
+    src: url(../../Font/transformers_movie/Transformers\ Movie.ttf);
+}
+
 .team-card-div-wrapper {
     color: #fff;
     margin: auto;
@@ -62,6 +67,7 @@ a {
 }
 
 .team h1 {
+    font-family: "Transformers";
     font-size: 40px;
     color: rgb(155, 155, 211);
 }
