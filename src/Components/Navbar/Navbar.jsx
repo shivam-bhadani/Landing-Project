@@ -39,7 +39,7 @@ export const Navbar = () => {
                             <li className="nav-li"><a href="#collection">Collection</a></li>
                             <li className="nav-li"><a href="#roadmap">Roadmap</a></li>
                             <li className="nav-li"><a href="#teams">Team</a></li>
-                            <li className="nav-li"><a href="#social">Social</a></li>
+                            <li className="nav-li"><a href="#social">Connect</a></li>
                         </ul>
                     </div>
                 </div>
