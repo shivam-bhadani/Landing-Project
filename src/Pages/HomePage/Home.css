@@ -11,6 +11,7 @@
 }
 
 .gif-div img {
+    background: transparent;
     width: 400px;
     transition: 0.4s;
 }

@@ -43,10 +43,8 @@ export const Timer = () => {
     return (
         <div className="timer-div" id="presale">
             <div className="presale"><h1>PRE-SALE</h1></div>
-            <div className="presale-video-div">
-                <video controls>
-                    <source src="images/presale.mp4" type="video/mp4" />
-                </video>
+            <div id="iframe-cotainer" style={{ width: "100%" }}>
+                <iframe src="https://www.youtube.com/embed/3ugQ846X5N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen className="videolaunch"></iframe>
             </div>
             <div className="countdown-div">
                 <ul class="timer inline-list">
